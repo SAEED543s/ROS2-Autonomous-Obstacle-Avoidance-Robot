@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/omar-yaseen/robot_ws/build/motor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-yaseen/robot_ws/src/motor_package -DCMAKE_INSTALL_PREFIX=/home/omar-yaseen/robot_ws/install/motor_package
+[0.104s] -- The C compiler identification is GNU 13.3.0
+[0.192s] -- The CXX compiler identification is GNU 13.3.0
+[0.213s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.375s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.552s] -- Detecting CXX compiler ABI info - done
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.566s] -- Detecting CXX compile features
+[0.566s] -- Detecting CXX compile features - done
+[0.569s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.758s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.879s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.925s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.068s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.071s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.169s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.197s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.231s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.319s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.448s] -- Configuring done (1.4s)
+[1.458s] -- Generating done (0.0s)
+[1.462s] -- Build files have been written to: /home/omar-yaseen/robot_ws/build/motor_package
+[1.475s] Invoked command in '/home/omar-yaseen/robot_ws/build/motor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-yaseen/robot_ws/src/motor_package -DCMAKE_INSTALL_PREFIX=/home/omar-yaseen/robot_ws/install/motor_package
+[1.476s] Invoking command in '/home/omar-yaseen/robot_ws/build/motor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/motor_package -- -j16 -l16
+[1.532s] [ 50%] [32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o[0m
+[9.725s] [100%] [32m[1mLinking CXX executable motor_node[0m
+[10.024s] [100%] Built target motor_node
+[10.036s] Invoked command in '/home/omar-yaseen/robot_ws/build/motor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/motor_package -- -j16 -l16
+[10.037s] Invoking command in '/home/omar-yaseen/robot_ws/build/motor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/motor_package
+[10.046s] -- Install configuration: ""
+[10.046s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/lib/motor_package/motor_node
+[10.050s] -- Set non-toolchain portion of runtime path of "/home/omar-yaseen/robot_ws/install/motor_package/lib/motor_package/motor_node" to ""
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/package_run_dependencies/motor_package
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/parent_prefix_path/motor_package
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/ament_prefix_path.sh
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/ament_prefix_path.dsv
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/path.sh
+[10.050s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/path.dsv
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.bash
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.sh
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.zsh
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.dsv
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/package.dsv
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/packages/motor_package
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/cmake/motor_packageConfig.cmake
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/cmake/motor_packageConfig-version.cmake
+[10.051s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/package.xml
+[10.053s] Invoked command in '/home/omar-yaseen/robot_ws/build/motor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/motor_package

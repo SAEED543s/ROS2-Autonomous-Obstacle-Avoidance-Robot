@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000596] (-) JobUnselected: {'identifier': 'motor_package'}
+[0.000842] (-) JobUnselected: {'identifier': 'obstacle_package'}
+[0.001013] (-) JobUnselected: {'identifier': 'sensor_package'}
+[0.001296] (Robot_Smart_Car) JobQueued: {'identifier': 'Robot_Smart_Car', 'dependencies': OrderedDict()}
+[0.001345] (Robot_Smart_Car) JobStarted: {'identifier': 'Robot_Smart_Car'}
+[0.009026] (Robot_Smart_Car) JobProgress: {'identifier': 'Robot_Smart_Car', 'progress': 'cmake'}
+[0.010521] (Robot_Smart_Car) JobProgress: {'identifier': 'Robot_Smart_Car', 'progress': 'build'}
+[0.010613] (Robot_Smart_Car) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car', '--', '-j16', '-l16'], 'cwd': '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'fd2875ed-6f31-433e-a510-e7fc57e6a0d7', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omar-yaseen', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-yaseen', 'OLDPWD': '/home/omar-yaseen/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2259', 'SYSTEMD_EXEC_PID': '2534', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6168', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-yaseen', 'JOURNAL_STREAM': '9:19902', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-yaseen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-yaseen-IdeaPad-Gaming-3-16IAH7:@/tmp/.ICE-unix/2491,unix/omar-yaseen-IdeaPad-Gaming-3-16IAH7:/tmp/.ICE-unix/2491', 'INVOCATION_ID': '58ae61afaf6a4454b1d9f919a019b5cd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T6GAP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install/sensor_package:/home/omar-yaseen/robot_ws/install/obstacle_package:/home/omar-yaseen/robot_ws/install/motor_package:/home/omar-yaseen/robot_ws/install/Robot_Smart_Car:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d74af159-c7f1-4707-b431-4f969f515dc0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install/sensor_package:/home/omar-yaseen/robot_ws/install/obstacle_package:/home/omar-yaseen/robot_ws/install/motor_package:/home/omar-yaseen/robot_ws/install/Robot_Smart_Car:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.045765] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099516] (-) TimerEvent: {}
+[0.199820] (-) TimerEvent: {}
+[0.300178] (-) TimerEvent: {}
+[0.335729] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.367607] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.378153] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.391612] (Robot_Smart_Car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400358] (-) TimerEvent: {}
+[0.407482] (Robot_Smart_Car) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.490501] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.492144] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500544] (-) TimerEvent: {}
+[0.573152] (Robot_Smart_Car) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600732] (-) TimerEvent: {}
+[0.652478] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.668576] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.700938] (-) TimerEvent: {}
+[0.719775] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.757685] (Robot_Smart_Car) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.801127] (-) TimerEvent: {}
+[0.901461] (-) TimerEvent: {}
+[1.001833] (-) TimerEvent: {}
+[1.030781] (Robot_Smart_Car) StderrLine: {'line': b'WARNING: Package name "Robot_Smart_Car" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[1.049320] (Robot_Smart_Car) StdoutLine: {'line': b'-- Configuring done (1.0s)\n'}
+[1.064359] (Robot_Smart_Car) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.069177] (Robot_Smart_Car) StdoutLine: {'line': b'-- Build files have been written to: /home/omar-yaseen/robot_ws/build/Robot_Smart_Car\n'}
+[1.101968] (-) TimerEvent: {}
+[1.123022] (Robot_Smart_Car) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/full_sensor_node.dir/src/full_sensor_node.cpp.o\x1b[0m\n'}
+[1.202149] (-) TimerEvent: {}
+[1.302517] (-) TimerEvent: {}
+[1.402912] (-) TimerEvent: {}
+[1.503224] (-) TimerEvent: {}
+[1.603611] (-) TimerEvent: {}
+[1.703994] (-) TimerEvent: {}
+[1.804381] (-) TimerEvent: {}
+[1.904782] (-) TimerEvent: {}
+[2.005171] (-) TimerEvent: {}
+[2.105563] (-) TimerEvent: {}
+[2.205954] (-) TimerEvent: {}
+[2.306341] (-) TimerEvent: {}
+[2.406749] (-) TimerEvent: {}
+[2.507140] (-) TimerEvent: {}
+[2.607552] (-) TimerEvent: {}
+[2.707959] (-) TimerEvent: {}
+[2.808345] (-) TimerEvent: {}
+[2.908748] (-) TimerEvent: {}
+[3.009155] (-) TimerEvent: {}
+[3.109574] (-) TimerEvent: {}
+[3.209974] (-) TimerEvent: {}
+[3.310382] (-) TimerEvent: {}
+[3.410813] (-) TimerEvent: {}
+[3.511266] (-) TimerEvent: {}
+[3.611649] (-) TimerEvent: {}
+[3.712006] (-) TimerEvent: {}
+[3.812447] (-) TimerEvent: {}
+[3.912891] (-) TimerEvent: {}
+[4.013335] (-) TimerEvent: {}
+[4.113778] (-) TimerEvent: {}
+[4.214211] (-) TimerEvent: {}
+[4.314658] (-) TimerEvent: {}
+[4.414970] (-) TimerEvent: {}
+[4.515415] (-) TimerEvent: {}
+[4.615843] (-) TimerEvent: {}
+[4.716288] (-) TimerEvent: {}
+[4.816863] (-) TimerEvent: {}
+[4.917274] (-) TimerEvent: {}
+[5.017697] (-) TimerEvent: {}
+[5.118116] (-) TimerEvent: {}
+[5.218516] (-) TimerEvent: {}
+[5.318901] (-) TimerEvent: {}
+[5.419289] (-) TimerEvent: {}
+[5.519679] (-) TimerEvent: {}
+[5.620063] (-) TimerEvent: {}
+[5.720455] (-) TimerEvent: {}
+[5.820835] (-) TimerEvent: {}
+[5.921228] (-) TimerEvent: {}
+[6.021576] (-) TimerEvent: {}
+[6.121961] (-) TimerEvent: {}
+[6.222359] (-) TimerEvent: {}
+[6.322684] (-) TimerEvent: {}
+[6.422999] (-) TimerEvent: {}
+[6.523385] (-) TimerEvent: {}
+[6.623701] (-) TimerEvent: {}
+[6.724001] (-) TimerEvent: {}
+[6.824398] (-) TimerEvent: {}
+[6.924741] (-) TimerEvent: {}
+[7.025218] (-) TimerEvent: {}
+[7.125585] (-) TimerEvent: {}
+[7.225974] (-) TimerEvent: {}
+[7.326340] (-) TimerEvent: {}
+[7.426755] (-) TimerEvent: {}
+[7.527050] (-) TimerEvent: {}
+[7.627435] (-) TimerEvent: {}
+[7.727815] (-) TimerEvent: {}
+[7.828218] (-) TimerEvent: {}
+[7.928602] (-) TimerEvent: {}
+[8.028905] (-) TimerEvent: {}
+[8.129168] (-) TimerEvent: {}
+[8.229466] (-) TimerEvent: {}
+[8.329853] (-) TimerEvent: {}
+[8.430149] (-) TimerEvent: {}
+[8.530538] (-) TimerEvent: {}
+[8.630878] (-) TimerEvent: {}
+[8.731348] (-) TimerEvent: {}
+[8.831729] (-) TimerEvent: {}
+[8.932057] (-) TimerEvent: {}
+[9.032417] (-) TimerEvent: {}
+[9.132980] (-) TimerEvent: {}
+[9.233380] (-) TimerEvent: {}
+[9.333790] (-) TimerEvent: {}
+[9.434114] (-) TimerEvent: {}
+[9.534440] (-) TimerEvent: {}
+[9.634780] (-) TimerEvent: {}
+[9.735118] (-) TimerEvent: {}
+[9.835549] (-) TimerEvent: {}
+[9.935893] (-) TimerEvent: {}
+[10.036325] (-) TimerEvent: {}
+[10.136818] (-) TimerEvent: {}
+[10.237403] (-) TimerEvent: {}
+[10.337714] (-) TimerEvent: {}
+[10.438001] (-) TimerEvent: {}
+[10.538371] (-) TimerEvent: {}
+[10.638760] (-) TimerEvent: {}
+[10.739081] (-) TimerEvent: {}
+[10.839520] (-) TimerEvent: {}
+[10.939823] (-) TimerEvent: {}
+[11.040131] (-) TimerEvent: {}
+[11.140545] (-) TimerEvent: {}
+[11.240888] (-) TimerEvent: {}
+[11.341139] (-) TimerEvent: {}
+[11.441513] (-) TimerEvent: {}
+[11.541886] (-) TimerEvent: {}
+[11.642239] (-) TimerEvent: {}
+[11.742665] (-) TimerEvent: {}
+[11.842956] (-) TimerEvent: {}
+[11.943284] (-) TimerEvent: {}
+[12.043535] (-) TimerEvent: {}
+[12.143814] (-) TimerEvent: {}
+[12.244102] (-) TimerEvent: {}
+[12.344501] (-) TimerEvent: {}
+[12.444844] (-) TimerEvent: {}
+[12.545161] (-) TimerEvent: {}
+[12.567595] (Robot_Smart_Car) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable full_sensor_node\x1b[0m\n'}
+[12.645276] (-) TimerEvent: {}
+[12.745686] (-) TimerEvent: {}
+[12.846032] (-) TimerEvent: {}
+[12.946401] (-) TimerEvent: {}
+[13.046695] (-) TimerEvent: {}
+[13.106448] (Robot_Smart_Car) StdoutLine: {'line': b'[100%] Built target full_sensor_node\n'}
+[13.118071] (Robot_Smart_Car) CommandEnded: {'returncode': 0}
+[13.118959] (Robot_Smart_Car) JobProgress: {'identifier': 'Robot_Smart_Car', 'progress': 'install'}
+[13.128720] (Robot_Smart_Car) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car'], 'cwd': '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'fd2875ed-6f31-433e-a510-e7fc57e6a0d7', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'omar-yaseen', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/omar-yaseen', 'OLDPWD': '/home/omar-yaseen/robot_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2259', 'SYSTEMD_EXEC_PID': '2534', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6168', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'omar-yaseen', 'JOURNAL_STREAM': '9:19902', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'omar-yaseen', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omar-yaseen-IdeaPad-Gaming-3-16IAH7:@/tmp/.ICE-unix/2491,unix/omar-yaseen-IdeaPad-Gaming-3-16IAH7:/tmp/.ICE-unix/2491', 'INVOCATION_ID': '58ae61afaf6a4454b1d9f919a019b5cd', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.T6GAP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install/sensor_package:/home/omar-yaseen/robot_ws/install/obstacle_package:/home/omar-yaseen/robot_ws/install/motor_package:/home/omar-yaseen/robot_ws/install/Robot_Smart_Car:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:d74af159-c7f1-4707-b431-4f969f515dc0', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/omar-yaseen/robot_ws/install/sensor_package:/home/omar-yaseen/robot_ws/install/obstacle_package:/home/omar-yaseen/robot_ws/install/motor_package:/home/omar-yaseen/robot_ws/install/Robot_Smart_Car:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.137830] (Robot_Smart_Car) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.138812] (Robot_Smart_Car) StdoutLine: {'line': b'-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node\n'}
+[13.144237] (Robot_Smart_Car) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node" to ""\n'}
+[13.144511] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf\n'}
+[13.144906] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.urdf\n'}
+[13.145102] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.csv\n'}
+[13.145318] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch\n'}
+[13.145493] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch/display.launch.xml\n'}
+[13.145634] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes\n'}
+[13.145767] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/left_wheel_link.STL\n'}
+[13.146234] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/right_wheel_link.STL\n'}
+[13.146379] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster.STL\n'}
+[13.147459] (-) TimerEvent: {}
+[13.148098] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/base_link.STL\n'}
+[13.148431] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster_wheel_link.STL\n'}
+[13.148550] (Robot_Smart_Car) StdoutLine: {'line': b'-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/package_run_dependencies/Robot_Smart_Car\n'}
+[13.148627] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/parent_prefix_path/Robot_Smart_Car\n'}
+[13.148696] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.sh\n'}
+[13.148765] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.dsv\n'}
+[13.148832] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.sh\n'}
+[13.148897] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.dsv\n'}
+[13.148963] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.bash\n'}
+[13.149025] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.sh\n'}
+[13.149089] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.zsh\n'}
+[13.149151] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.dsv\n'}
+[13.149247] (Robot_Smart_Car) StdoutLine: {'line': b'-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.dsv\n'}
+[13.149309] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/packages/Robot_Smart_Car\n'}
+[13.149420] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig.cmake\n'}
+[13.149482] (Robot_Smart_Car) StdoutLine: {'line': b'-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig-version.cmake\n'}
+[13.149543] (Robot_Smart_Car) StdoutLine: {'line': b'-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.xml\n'}
+[13.149609] (Robot_Smart_Car) CommandEnded: {'returncode': 0}
+[13.166132] (Robot_Smart_Car) JobEnded: {'identifier': 'Robot_Smart_Car', 'rc': 0}
+[13.167108] (-) EventReactorShutdown: {}

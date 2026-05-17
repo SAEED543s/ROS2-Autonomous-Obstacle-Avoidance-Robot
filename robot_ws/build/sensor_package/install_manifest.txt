@@ -1,0 +1,16 @@
+/home/omar-yaseen/robot_ws/install/sensor_package/lib/sensor_package/sensor_node
+/home/omar-yaseen/robot_ws/install/sensor_package/share/ament_index/resource_index/package_run_dependencies/sensor_package
+/home/omar-yaseen/robot_ws/install/sensor_package/share/ament_index/resource_index/parent_prefix_path/sensor_package
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.sh
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/environment/ament_prefix_path.dsv
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/environment/path.sh
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/environment/path.dsv
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/local_setup.bash
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/local_setup.sh
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/local_setup.zsh
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/local_setup.dsv
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/package.dsv
+/home/omar-yaseen/robot_ws/install/sensor_package/share/ament_index/resource_index/packages/sensor_package
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig.cmake
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/cmake/sensor_packageConfig-version.cmake
+/home/omar-yaseen/robot_ws/install/sensor_package/share/sensor_package/package.xml

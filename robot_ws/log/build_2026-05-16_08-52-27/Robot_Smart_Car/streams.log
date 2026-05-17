@@ -1,0 +1,68 @@
+[0.011s] Invoking command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-yaseen/robot_ws/src/Robot_Smart_Car -DCMAKE_INSTALL_PREFIX=/home/omar-yaseen/robot_ws/install/Robot_Smart_Car
+[0.090s] -- The C compiler identification is GNU 13.3.0
+[0.181s] -- The CXX compiler identification is GNU 13.3.0
+[0.212s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.361s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.361s] -- Detecting C compile features
+[0.362s] -- Detecting C compile features - done
+[0.379s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.537s] -- Detecting CXX compile features
+[0.538s] -- Detecting CXX compile features - done
+[0.541s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.738s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.881s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.938s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.953s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.990s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.079s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.081s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.181s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.221s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.352s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.369s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.506s] WARNING: Package name "Robot_Smart_Car" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.526s] -- Configuring done (1.5s)
+[1.537s] -- Generating done (0.0s)
+[1.541s] -- Build files have been written to: /home/omar-yaseen/robot_ws/build/Robot_Smart_Car
+[1.552s] Invoked command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/omar-yaseen/robot_ws/src/Robot_Smart_Car -DCMAKE_INSTALL_PREFIX=/home/omar-yaseen/robot_ws/install/Robot_Smart_Car
+[1.553s] Invoking command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/Robot_Smart_Car -- -j16 -l16
+[1.623s] [ 50%] [32mBuilding CXX object CMakeFiles/full_sensor_node.dir/src/full_sensor_node.cpp.o[0m
+[11.837s] [100%] [32m[1mLinking CXX executable full_sensor_node[0m
+[12.247s] [100%] Built target full_sensor_node
+[12.260s] Invoked command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/Robot_Smart_Car -- -j16 -l16
+[12.270s] Invoking command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/Robot_Smart_Car
+[12.282s] -- Install configuration: ""
+[12.282s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node
+[12.287s] -- Set non-toolchain portion of runtime path of "/home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node" to ""
+[12.288s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf
+[12.288s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.urdf
+[12.288s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.csv
+[12.288s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch
+[12.289s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch/display.launch.xml
+[12.289s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes
+[12.289s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/left_wheel_link.STL
+[12.290s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/right_wheel_link.STL
+[12.292s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster.STL
+[12.297s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/base_link.STL
+[12.308s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster_wheel_link.STL
+[12.309s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/package_run_dependencies/Robot_Smart_Car
+[12.309s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/parent_prefix_path/Robot_Smart_Car
+[12.310s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.sh
+[12.310s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.dsv
+[12.310s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.sh
+[12.311s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.dsv
+[12.311s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.bash
+[12.311s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.sh
+[12.311s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.zsh
+[12.311s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.dsv
+[12.312s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.dsv
+[12.312s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/packages/Robot_Smart_Car
+[12.312s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig.cmake
+[12.313s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig-version.cmake
+[12.313s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.xml
+[12.314s] Invoked command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/Robot_Smart_Car

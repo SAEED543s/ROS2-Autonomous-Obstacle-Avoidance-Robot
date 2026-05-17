@@ -1,0 +1,339 @@
+[0.000000] (-) TimerEvent: {}
+[0.000478] (-) JobUnselected: {'identifier': 'Robot_Smart_Car'}
+[0.000539] (-) JobUnselected: {'identifier': 'motor_package'}
+[0.000575] (-) JobUnselected: {'identifier': 'obstacle_package'}
+[0.000604] (-) JobUnselected: {'identifier': 'sensor_package'}
+[0.000635] (obstacle_avoidance) JobQueued: {'identifier': 'obstacle_avoidance', 'dependencies': OrderedDict()}
+[0.001007] (obstacle_avoidance) JobStarted: {'identifier': 'obstacle_avoidance'}
+[0.026523] (obstacle_avoidance) JobProgress: {'identifier': 'obstacle_avoidance', 'progress': 'cmake'}
+[0.027491] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '/home/saeed-ismail/robot_ws/src/obstacle_avoidance', '-DCMAKE_INSTALL_PREFIX=/home/saeed-ismail/robot_ws/install/obstacle_avoidance'], 'cwd': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'saeed-ismail', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saeed-ismail', 'OLDPWD': '/home/saeed-ismail/robot_ws/src/obstacle_avoidance', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2589', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saeed-ismail', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeed-ismail', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saeed-ismail/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saeed-ismail/.local/bin:/home/saeed-ismail/.local/bin', 'SESSION_MANAGER': 'local/saeed-ismail-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/2551,unix/saeed-ismail-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/2551', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/104dc9f8_50ce_448f_b157_fad9fdbbb831', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.162', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099594] (-) TimerEvent: {}
+[0.200056] (-) TimerEvent: {}
+[0.234625] (obstacle_avoidance) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300204] (-) TimerEvent: {}
+[0.391144] (obstacle_avoidance) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.400326] (-) TimerEvent: {}
+[0.424905] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500488] (-) TimerEvent: {}
+[0.587372] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.600599] (-) TimerEvent: {}
+[0.605704] (obstacle_avoidance) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.606463] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.607490] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.624805] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700867] (-) TimerEvent: {}
+[0.794058] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.800951] (-) TimerEvent: {}
+[0.817831] (obstacle_avoidance) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.818624] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.819349] (obstacle_avoidance) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.839356] (obstacle_avoidance) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.901220] (-) TimerEvent: {}
+[1.001667] (-) TimerEvent: {}
+[1.102361] (-) TimerEvent: {}
+[1.203298] (-) TimerEvent: {}
+[1.287148] (obstacle_avoidance) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.303465] (-) TimerEvent: {}
+[1.404056] (-) TimerEvent: {}
+[1.504483] (-) TimerEvent: {}
+[1.576439] (obstacle_avoidance) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.604657] (-) TimerEvent: {}
+[1.705219] (-) TimerEvent: {}
+[1.712955] (obstacle_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.756177] (obstacle_avoidance) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.805330] (-) TimerEvent: {}
+[1.810473] (obstacle_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.864790] (obstacle_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.905553] (-) TimerEvent: {}
+[2.006014] (-) TimerEvent: {}
+[2.092479] (obstacle_avoidance) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.103747] (obstacle_avoidance) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.106126] (-) TimerEvent: {}
+[2.206431] (-) TimerEvent: {}
+[2.297718] (obstacle_avoidance) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.306563] (-) TimerEvent: {}
+[2.345016] (obstacle_avoidance) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.392815] (obstacle_avoidance) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.406765] (-) TimerEvent: {}
+[2.507198] (-) TimerEvent: {}
+[2.599868] (obstacle_avoidance) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[2.607389] (-) TimerEvent: {}
+[2.645957] (obstacle_avoidance) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.707674] (-) TimerEvent: {}
+[2.755059] (obstacle_avoidance) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.807794] (-) TimerEvent: {}
+[2.825313] (obstacle_avoidance) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.908028] (-) TimerEvent: {}
+[3.008520] (-) TimerEvent: {}
+[3.109040] (-) TimerEvent: {}
+[3.209379] (-) TimerEvent: {}
+[3.309727] (-) TimerEvent: {}
+[3.384880] (obstacle_avoidance) StdoutLine: {'line': b'-- Configuring done (3.3s)\n'}
+[3.409918] (-) TimerEvent: {}
+[3.424712] (obstacle_avoidance) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.440021] (obstacle_avoidance) StdoutLine: {'line': b'-- Build files have been written to: /home/saeed-ismail/robot_ws/build/obstacle_avoidance\n'}
+[3.457335] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[3.459860] (obstacle_avoidance) JobProgress: {'identifier': 'obstacle_avoidance', 'progress': 'build'}
+[3.459907] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', '--', '-j8', '-l8'], 'cwd': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'saeed-ismail', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saeed-ismail', 'OLDPWD': '/home/saeed-ismail/robot_ws/src/obstacle_avoidance', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2589', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saeed-ismail', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeed-ismail', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saeed-ismail/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saeed-ismail/.local/bin:/home/saeed-ismail/.local/bin', 'SESSION_MANAGER': 'local/saeed-ismail-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/2551,unix/saeed-ismail-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/2551', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/104dc9f8_50ce_448f_b157_fad9fdbbb831', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.162', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.510075] (-) TimerEvent: {}
+[3.552504] (obstacle_avoidance) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_node.dir/src/obstacle_node.cpp.o\x1b[0m\n'}
+[3.553260] (obstacle_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_node.dir/src/motor_node.cpp.o\x1b[0m\n'}
+[3.553426] (obstacle_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/full_sensor_node.dir/src/full_sensor_node.cpp.o\x1b[0m\n'}
+[3.610223] (-) TimerEvent: {}
+[3.710683] (-) TimerEvent: {}
+[3.811100] (-) TimerEvent: {}
+[3.911617] (-) TimerEvent: {}
+[4.011990] (-) TimerEvent: {}
+[4.112356] (-) TimerEvent: {}
+[4.212788] (-) TimerEvent: {}
+[4.313161] (-) TimerEvent: {}
+[4.413531] (-) TimerEvent: {}
+[4.513908] (-) TimerEvent: {}
+[4.614282] (-) TimerEvent: {}
+[4.714672] (-) TimerEvent: {}
+[4.815057] (-) TimerEvent: {}
+[4.915431] (-) TimerEvent: {}
+[5.015805] (-) TimerEvent: {}
+[5.116185] (-) TimerEvent: {}
+[5.216571] (-) TimerEvent: {}
+[5.316966] (-) TimerEvent: {}
+[5.417353] (-) TimerEvent: {}
+[5.517808] (-) TimerEvent: {}
+[5.618189] (-) TimerEvent: {}
+[5.718588] (-) TimerEvent: {}
+[5.818992] (-) TimerEvent: {}
+[5.919411] (-) TimerEvent: {}
+[6.019827] (-) TimerEvent: {}
+[6.120209] (-) TimerEvent: {}
+[6.220583] (-) TimerEvent: {}
+[6.320978] (-) TimerEvent: {}
+[6.421356] (-) TimerEvent: {}
+[6.521755] (-) TimerEvent: {}
+[6.622177] (-) TimerEvent: {}
+[6.722585] (-) TimerEvent: {}
+[6.822964] (-) TimerEvent: {}
+[6.923362] (-) TimerEvent: {}
+[7.023769] (-) TimerEvent: {}
+[7.124356] (-) TimerEvent: {}
+[7.224969] (-) TimerEvent: {}
+[7.325486] (-) TimerEvent: {}
+[7.426064] (-) TimerEvent: {}
+[7.526563] (-) TimerEvent: {}
+[7.627127] (-) TimerEvent: {}
+[7.727659] (-) TimerEvent: {}
+[7.828212] (-) TimerEvent: {}
+[7.928762] (-) TimerEvent: {}
+[8.029264] (-) TimerEvent: {}
+[8.129814] (-) TimerEvent: {}
+[8.230314] (-) TimerEvent: {}
+[8.330885] (-) TimerEvent: {}
+[8.431397] (-) TimerEvent: {}
+[8.531927] (-) TimerEvent: {}
+[8.632422] (-) TimerEvent: {}
+[8.732955] (-) TimerEvent: {}
+[8.833473] (-) TimerEvent: {}
+[8.934012] (-) TimerEvent: {}
+[9.034533] (-) TimerEvent: {}
+[9.135120] (-) TimerEvent: {}
+[9.235665] (-) TimerEvent: {}
+[9.336224] (-) TimerEvent: {}
+[9.436803] (-) TimerEvent: {}
+[9.537322] (-) TimerEvent: {}
+[9.637850] (-) TimerEvent: {}
+[9.738359] (-) TimerEvent: {}
+[9.838897] (-) TimerEvent: {}
+[9.939408] (-) TimerEvent: {}
+[10.039935] (-) TimerEvent: {}
+[10.140450] (-) TimerEvent: {}
+[10.240999] (-) TimerEvent: {}
+[10.341497] (-) TimerEvent: {}
+[10.442079] (-) TimerEvent: {}
+[10.542633] (-) TimerEvent: {}
+[10.643191] (-) TimerEvent: {}
+[10.743730] (-) TimerEvent: {}
+[10.844279] (-) TimerEvent: {}
+[10.944848] (-) TimerEvent: {}
+[11.045367] (-) TimerEvent: {}
+[11.145924] (-) TimerEvent: {}
+[11.246413] (-) TimerEvent: {}
+[11.346937] (-) TimerEvent: {}
+[11.447443] (-) TimerEvent: {}
+[11.547949] (-) TimerEvent: {}
+[11.648445] (-) TimerEvent: {}
+[11.748947] (-) TimerEvent: {}
+[11.849521] (-) TimerEvent: {}
+[11.950089] (-) TimerEvent: {}
+[12.050599] (-) TimerEvent: {}
+[12.151177] (-) TimerEvent: {}
+[12.251707] (-) TimerEvent: {}
+[12.352215] (-) TimerEvent: {}
+[12.452749] (-) TimerEvent: {}
+[12.553259] (-) TimerEvent: {}
+[12.653762] (-) TimerEvent: {}
+[12.754269] (-) TimerEvent: {}
+[12.854742] (-) TimerEvent: {}
+[12.955246] (-) TimerEvent: {}
+[13.055709] (-) TimerEvent: {}
+[13.156244] (-) TimerEvent: {}
+[13.256601] (-) TimerEvent: {}
+[13.356974] (-) TimerEvent: {}
+[13.457355] (-) TimerEvent: {}
+[13.557795] (-) TimerEvent: {}
+[13.658163] (-) TimerEvent: {}
+[13.758529] (-) TimerEvent: {}
+[13.858899] (-) TimerEvent: {}
+[13.959260] (-) TimerEvent: {}
+[14.059628] (-) TimerEvent: {}
+[14.160001] (-) TimerEvent: {}
+[14.260373] (-) TimerEvent: {}
+[14.360752] (-) TimerEvent: {}
+[14.461115] (-) TimerEvent: {}
+[14.561481] (-) TimerEvent: {}
+[14.661846] (-) TimerEvent: {}
+[14.762214] (-) TimerEvent: {}
+[14.862581] (-) TimerEvent: {}
+[14.962958] (-) TimerEvent: {}
+[15.063344] (-) TimerEvent: {}
+[15.163803] (-) TimerEvent: {}
+[15.264177] (-) TimerEvent: {}
+[15.364545] (-) TimerEvent: {}
+[15.464935] (-) TimerEvent: {}
+[15.565336] (-) TimerEvent: {}
+[15.665770] (-) TimerEvent: {}
+[15.766134] (-) TimerEvent: {}
+[15.866508] (-) TimerEvent: {}
+[15.966877] (-) TimerEvent: {}
+[16.067242] (-) TimerEvent: {}
+[16.167598] (-) TimerEvent: {}
+[16.267960] (-) TimerEvent: {}
+[16.368320] (-) TimerEvent: {}
+[16.468683] (-) TimerEvent: {}
+[16.569035] (-) TimerEvent: {}
+[16.669400] (-) TimerEvent: {}
+[16.769742] (-) TimerEvent: {}
+[16.870093] (-) TimerEvent: {}
+[16.970461] (-) TimerEvent: {}
+[17.070839] (-) TimerEvent: {}
+[17.171197] (-) TimerEvent: {}
+[17.271552] (-) TimerEvent: {}
+[17.371912] (-) TimerEvent: {}
+[17.472266] (-) TimerEvent: {}
+[17.572649] (-) TimerEvent: {}
+[17.672985] (-) TimerEvent: {}
+[17.773336] (-) TimerEvent: {}
+[17.873701] (-) TimerEvent: {}
+[17.974061] (-) TimerEvent: {}
+[18.074426] (-) TimerEvent: {}
+[18.174800] (-) TimerEvent: {}
+[18.265100] (obstacle_avoidance) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable motor_node\x1b[0m\n'}
+[18.274953] (-) TimerEvent: {}
+[18.375331] (-) TimerEvent: {}
+[18.475853] (-) TimerEvent: {}
+[18.576338] (-) TimerEvent: {}
+[18.669840] (obstacle_avoidance) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable obstacle_node\x1b[0m\n'}
+[18.676470] (-) TimerEvent: {}
+[18.773097] (obstacle_avoidance) StdoutLine: {'line': b'[ 83%] Built target motor_node\n'}
+[18.776580] (-) TimerEvent: {}
+[18.877018] (-) TimerEvent: {}
+[18.977479] (-) TimerEvent: {}
+[19.077946] (-) TimerEvent: {}
+[19.156705] (obstacle_avoidance) StdoutLine: {'line': b'[ 83%] Built target obstacle_node\n'}
+[19.178068] (-) TimerEvent: {}
+[19.278518] (-) TimerEvent: {}
+[19.379027] (-) TimerEvent: {}
+[19.479500] (-) TimerEvent: {}
+[19.579983] (-) TimerEvent: {}
+[19.680458] (-) TimerEvent: {}
+[19.781112] (-) TimerEvent: {}
+[19.881538] (-) TimerEvent: {}
+[19.982102] (-) TimerEvent: {}
+[20.082684] (-) TimerEvent: {}
+[20.183234] (-) TimerEvent: {}
+[20.283749] (-) TimerEvent: {}
+[20.384101] (-) TimerEvent: {}
+[20.484577] (-) TimerEvent: {}
+[20.585090] (-) TimerEvent: {}
+[20.685626] (-) TimerEvent: {}
+[20.786189] (-) TimerEvent: {}
+[20.886573] (-) TimerEvent: {}
+[20.987044] (-) TimerEvent: {}
+[21.087407] (-) TimerEvent: {}
+[21.187839] (-) TimerEvent: {}
+[21.288307] (-) TimerEvent: {}
+[21.388779] (-) TimerEvent: {}
+[21.489229] (-) TimerEvent: {}
+[21.589705] (-) TimerEvent: {}
+[21.690240] (-) TimerEvent: {}
+[21.790735] (-) TimerEvent: {}
+[21.891155] (-) TimerEvent: {}
+[21.991691] (-) TimerEvent: {}
+[22.092106] (-) TimerEvent: {}
+[22.192603] (-) TimerEvent: {}
+[22.293121] (-) TimerEvent: {}
+[22.393574] (-) TimerEvent: {}
+[22.494100] (-) TimerEvent: {}
+[22.594614] (-) TimerEvent: {}
+[22.695001] (-) TimerEvent: {}
+[22.795455] (-) TimerEvent: {}
+[22.895906] (-) TimerEvent: {}
+[22.996422] (-) TimerEvent: {}
+[23.096962] (-) TimerEvent: {}
+[23.197433] (-) TimerEvent: {}
+[23.297958] (-) TimerEvent: {}
+[23.398455] (-) TimerEvent: {}
+[23.498946] (-) TimerEvent: {}
+[23.599535] (-) TimerEvent: {}
+[23.700002] (-) TimerEvent: {}
+[23.800446] (-) TimerEvent: {}
+[23.900928] (-) TimerEvent: {}
+[24.001441] (-) TimerEvent: {}
+[24.102036] (-) TimerEvent: {}
+[24.202684] (-) TimerEvent: {}
+[24.303261] (-) TimerEvent: {}
+[24.403789] (-) TimerEvent: {}
+[24.504228] (-) TimerEvent: {}
+[24.604763] (-) TimerEvent: {}
+[24.705346] (-) TimerEvent: {}
+[24.805993] (-) TimerEvent: {}
+[24.906575] (-) TimerEvent: {}
+[25.007150] (-) TimerEvent: {}
+[25.058954] (obstacle_avoidance) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable full_sensor_node\x1b[0m\n'}
+[25.107369] (-) TimerEvent: {}
+[25.207883] (-) TimerEvent: {}
+[25.308320] (-) TimerEvent: {}
+[25.408766] (-) TimerEvent: {}
+[25.509169] (-) TimerEvent: {}
+[25.609593] (-) TimerEvent: {}
+[25.710212] (-) TimerEvent: {}
+[25.810979] (-) TimerEvent: {}
+[25.911377] (-) TimerEvent: {}
+[25.931281] (obstacle_avoidance) StdoutLine: {'line': b'[100%] Built target full_sensor_node\n'}
+[25.950768] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[25.951848] (obstacle_avoidance) JobProgress: {'identifier': 'obstacle_avoidance', 'progress': 'install'}
+[25.967418] (obstacle_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saeed-ismail/robot_ws/build/obstacle_avoidance'], 'cwd': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'saeed-ismail', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/saeed-ismail', 'OLDPWD': '/home/saeed-ismail/robot_ws/src/obstacle_avoidance', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2589', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'saeed-ismail', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'saeed-ismail', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/saeed-ismail/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saeed-ismail/.local/bin:/home/saeed-ismail/.local/bin', 'SESSION_MANAGER': 'local/saeed-ismail-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/2551,unix/saeed-ismail-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/2551', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/104dc9f8_50ce_448f_b157_fad9fdbbb831', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.162', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/saeed-ismail/robot_ws/build/obstacle_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/saeed-ismail/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.981708] (obstacle_avoidance) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.981965] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/full_sensor_node\n'}
+[25.989533] (obstacle_avoidance) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/full_sensor_node" to ""\n'}
+[25.989790] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/obstacle_node\n'}
+[25.994636] (obstacle_avoidance) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/obstacle_node" to ""\n'}
+[25.994902] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/motor_node\n'}
+[25.999620] (obstacle_avoidance) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/saeed-ismail/robot_ws/install/obstacle_avoidance/lib/obstacle_avoidance/motor_node" to ""\n'}
+[25.999981] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/obstacle_avoidance\n'}
+[26.000135] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/obstacle_avoidance\n'}
+[26.000333] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.sh\n'}
+[26.000545] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/ament_prefix_path.dsv\n'}
+[26.000766] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.sh\n'}
+[26.000983] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/environment/path.dsv\n'}
+[26.001129] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.bash\n'}
+[26.001295] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.sh\n'}
+[26.001482] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.zsh\n'}
+[26.001620] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/local_setup.dsv\n'}
+[26.001822] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.dsv\n'}
+[26.002028] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/ament_index/resource_index/packages/obstacle_avoidance\n'}
+[26.002253] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig.cmake\n'}
+[26.002448] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/cmake/obstacle_avoidanceConfig-version.cmake\n'}
+[26.002652] (obstacle_avoidance) StdoutLine: {'line': b'-- Installing: /home/saeed-ismail/robot_ws/install/obstacle_avoidance/share/obstacle_avoidance/package.xml\n'}
+[26.005089] (obstacle_avoidance) CommandEnded: {'returncode': 0}
+[26.011506] (-) TimerEvent: {}
+[26.043077] (obstacle_avoidance) JobEnded: {'identifier': 'obstacle_avoidance', 'rc': 0}
+[26.044421] (-) EventReactorShutdown: {}

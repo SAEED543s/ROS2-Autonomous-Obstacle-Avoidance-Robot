@@ -1,0 +1,49 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+WARNING: Package name "Robot_Smart_Car" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/omar-yaseen/robot_ws/build/Robot_Smart_Car
+[ 50%] [32mBuilding CXX object CMakeFiles/full_sensor_node.dir/src/full_sensor_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable full_sensor_node[0m
+[100%] Built target full_sensor_node
+-- Install configuration: ""
+-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node
+-- Set non-toolchain portion of runtime path of "/home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node" to ""
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.urdf
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.csv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch/display.launch.xml
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/left_wheel_link.STL
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/right_wheel_link.STL
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster.STL
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/base_link.STL
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster_wheel_link.STL
+-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/package_run_dependencies/Robot_Smart_Car
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/parent_prefix_path/Robot_Smart_Car
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.bash
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.zsh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.dsv
+-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/packages/Robot_Smart_Car
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig.cmake
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig-version.cmake
+-- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.xml

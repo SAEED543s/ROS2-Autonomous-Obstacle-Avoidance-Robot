@@ -1,0 +1,22 @@
+[0.019s] Invoking command in '/home/omar-yaseen/robot_ws/build/motor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/motor_package -- -j16 -l16
+[0.100s] [100%] Built target motor_node
+[0.119s] Invoked command in '/home/omar-yaseen/robot_ws/build/motor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/motor_package -- -j16 -l16
+[0.133s] Invoking command in '/home/omar-yaseen/robot_ws/build/motor_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/motor_package
+[0.145s] -- Install configuration: ""
+[0.145s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/lib/motor_package/motor_node
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/package_run_dependencies/motor_package
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/parent_prefix_path/motor_package
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/ament_prefix_path.sh
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/ament_prefix_path.dsv
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/path.sh
+[0.146s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/environment/path.dsv
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.bash
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.sh
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.zsh
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/local_setup.dsv
+[0.147s] -- Installing: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/package.dsv
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/ament_index/resource_index/packages/motor_package
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/cmake/motor_packageConfig.cmake
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/cmake/motor_packageConfig-version.cmake
+[0.147s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/motor_package/share/motor_package/package.xml
+[0.149s] Invoked command in '/home/omar-yaseen/robot_ws/build/motor_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/motor_package

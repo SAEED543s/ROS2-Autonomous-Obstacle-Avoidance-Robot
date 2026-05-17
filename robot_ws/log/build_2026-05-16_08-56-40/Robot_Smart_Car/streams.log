@@ -1,0 +1,33 @@
+[0.025s] Invoking command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/Robot_Smart_Car -- -j16 -l16
+[0.119s] [100%] Built target full_sensor_node
+[0.139s] Invoked command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/Robot_Smart_Car -- -j16 -l16
+[0.157s] Invoking command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/Robot_Smart_Car
+[0.171s] -- Install configuration: ""
+[0.172s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/lib/Robot_Smart_Car/full_sensor_node
+[0.174s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf
+[0.174s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.urdf
+[0.174s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/urdf/Robot_Smart_Car.csv
+[0.174s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch
+[0.174s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/launch/display.launch.xml
+[0.175s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes
+[0.176s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/left_wheel_link.STL
+[0.178s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/right_wheel_link.STL
+[0.179s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster.STL
+[0.179s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/base_link.STL
+[0.180s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/meshes/caster_wheel_link.STL
+[0.180s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/package_run_dependencies/Robot_Smart_Car
+[0.181s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/parent_prefix_path/Robot_Smart_Car
+[0.181s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.sh
+[0.181s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/ament_prefix_path.dsv
+[0.182s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.sh
+[0.182s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/environment/path.dsv
+[0.182s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.bash
+[0.183s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.sh
+[0.183s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.zsh
+[0.184s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/local_setup.dsv
+[0.184s] -- Installing: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.dsv
+[0.184s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/ament_index/resource_index/packages/Robot_Smart_Car
+[0.185s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig.cmake
+[0.185s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/cmake/Robot_Smart_CarConfig-version.cmake
+[0.186s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/Robot_Smart_Car/share/Robot_Smart_Car/package.xml
+[0.189s] Invoked command in '/home/omar-yaseen/robot_ws/build/Robot_Smart_Car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/Robot_Smart_Car

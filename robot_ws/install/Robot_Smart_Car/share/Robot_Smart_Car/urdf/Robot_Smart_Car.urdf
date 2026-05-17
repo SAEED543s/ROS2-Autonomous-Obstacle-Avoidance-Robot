@@ -1,0 +1,277 @@
+
+<robot
+  name="robot_ros2">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.002625 4.118E-07 -0.0053906"
+        rpy="0 0 0" />
+      <mass
+        value="0.07693" />
+      <inertia
+        ixx="4.8601E-05"
+        ixy="-5.9011E-08"
+        ixz="5.9417E-12"
+        iyy="0.00018243"
+        iyz="2.4765E-10"
+        izz="0.00022862" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.96471 0.96471 0.95294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="left_wheel_link">
+    <inertial>
+      <origin
+        xyz="3.4688E-05 -9.4118E-06 -0.008522"
+        rpy="0 0 0" />
+      <mass
+        value="0.020682" />
+      <inertia
+        ixx="7.4547E-06"
+        ixy="-1.3955E-10"
+        ixz="3.9863E-10"
+        iyy="7.4483E-06"
+        iyz="4.8992E-10"
+        izz="1.2038E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/left_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/left_wheel_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.025491 0.076487 -0.013817"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="left_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="right_wheel_link">
+    <inertial>
+      <origin
+        xyz="4.1055E-05 4.461E-06 0.0086062"
+        rpy="0 0 0" />
+      <mass
+        value="0.020682" />
+      <inertia
+        ixx="7.4547E-06"
+        ixy="1.3954E-10"
+        ixz="-3.9865E-10"
+        iyy="7.4483E-06"
+        iyz="4.8991E-10"
+        izz="1.2038E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/right_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/right_wheel_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="-0.025506 -0.076573 -0.013795"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="right_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="caster">
+    <inertial>
+      <origin
+        xyz="0.0015802 1.9164E-05 0.00069775"
+        rpy="0 0 0" />
+      <mass
+        value="0.0036033" />
+      <inertia
+        ixx="2.6353E-07"
+        ixy="-1.7459E-11"
+        ixz="2.1045E-08"
+        iyy="2.2536E-07"
+        iyz="-6.9422E-13"
+        izz="4.0914E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/caster.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/caster.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="casterjoint"
+    type="continuous">
+    <origin
+      xyz="0.087 -0.00029187 -0.016548"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="caster" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="10"
+      velocity="10" />
+  </joint>
+  <link
+    name="caster_wheel_link">
+    <inertial>
+      <origin
+        xyz="2.3025E-07 -8.5276E-08 8.9467E-11"
+        rpy="0 0 0" />
+      <mass
+        value="0.0039329" />
+      <inertia
+        ixx="2.0877E-07"
+        ixy="1.687E-11"
+        ixz="-4.9223E-13"
+        iyy="2.0875E-07"
+        iyz="-2.8931E-13"
+        izz="3.1659E-07" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/caster_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.6 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Robot_Smart_Car/meshes/caster_wheel_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="caster_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.0143 -0.0001 -0.018252"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="caster" />
+    <child
+      link="caster_wheel_link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      effort="10"
+      velocity="10" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+</robot>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Robot State Publisher -->
+  <node pkg="robot_state_publisher"
+        exec="robot_state_publisher"
+        name="robot_state_publisher">
+    <param name="robot_description"
+           value="$(command 'cat $(find-pkg-share Robot_Smart_Car)/urdf/Robot_Smart_Car.urdf')"/>
+  </node>
+
+  <!-- Full Sensor Node -->
+  <node pkg="Robot_Smart_Car"
+        exec="full_sensor_node"
+        name="full_sensor_node"/>
+
+  <!-- RViz2 -->
+  <node pkg="rviz2"
+        exec="rviz2"
+        name="rviz2"/>
+
+</launch>

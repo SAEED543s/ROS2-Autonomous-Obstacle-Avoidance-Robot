@@ -1,0 +1,12 @@
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/uninstall.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/obstacle_avoidance_uninstall.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/full_sensor_node.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/obstacle_node.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/motor_node.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/test.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/edit_cache.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/rebuild_cache.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/list_install_components.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/install.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/install/local.dir
+/home/saeed-ismail/robot_ws/build/obstacle_avoidance/CMakeFiles/install/strip.dir

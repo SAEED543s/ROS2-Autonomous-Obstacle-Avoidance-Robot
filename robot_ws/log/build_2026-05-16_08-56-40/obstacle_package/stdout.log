@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/obstacle_node.dir/src/obstacle_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable obstacle_node[0m
+[100%] Built target obstacle_node
+-- Install configuration: ""
+-- Installing: /home/omar-yaseen/robot_ws/install/obstacle_package/lib/obstacle_package/obstacle_node
+-- Set non-toolchain portion of runtime path of "/home/omar-yaseen/robot_ws/install/obstacle_package/lib/obstacle_package/obstacle_node" to ""
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/package_run_dependencies/obstacle_package
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/parent_prefix_path/obstacle_package
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.bash
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.sh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.zsh
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.dsv
+-- Installing: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.dsv
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/packages/obstacle_package
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig.cmake
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig-version.cmake
+-- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.xml

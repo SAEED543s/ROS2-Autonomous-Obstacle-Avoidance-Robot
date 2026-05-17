@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/omar-yaseen/robot_ws/build/obstacle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/obstacle_package -- -j16 -l16
+[0.104s] [100%] Built target obstacle_node
+[0.133s] Invoked command in '/home/omar-yaseen/robot_ws/build/obstacle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar-yaseen/robot_ws/build/obstacle_package -- -j16 -l16
+[0.135s] Invoking command in '/home/omar-yaseen/robot_ws/build/obstacle_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/obstacle_package
+[0.152s] -- Install configuration: ""
+[0.152s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/lib/obstacle_package/obstacle_node
+[0.155s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/package_run_dependencies/obstacle_package
+[0.155s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/parent_prefix_path/obstacle_package
+[0.156s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.sh
+[0.157s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.dsv
+[0.157s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.sh
+[0.157s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.dsv
+[0.157s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.bash
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.sh
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.zsh
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.dsv
+[0.158s] -- Installing: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.dsv
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/packages/obstacle_package
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig.cmake
+[0.158s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig-version.cmake
+[0.159s] -- Up-to-date: /home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.xml
+[0.180s] Invoked command in '/home/omar-yaseen/robot_ws/build/obstacle_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar-yaseen/robot_ws/build/obstacle_package

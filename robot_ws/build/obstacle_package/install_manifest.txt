@@ -1,0 +1,16 @@
+/home/omar-yaseen/robot_ws/install/obstacle_package/lib/obstacle_package/obstacle_node
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/package_run_dependencies/obstacle_package
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/parent_prefix_path/obstacle_package
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.sh
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/ament_prefix_path.dsv
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.sh
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/environment/path.dsv
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.bash
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.sh
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.zsh
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/local_setup.dsv
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.dsv
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/ament_index/resource_index/packages/obstacle_package
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig.cmake
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/cmake/obstacle_packageConfig-version.cmake
+/home/omar-yaseen/robot_ws/install/obstacle_package/share/obstacle_package/package.xml
