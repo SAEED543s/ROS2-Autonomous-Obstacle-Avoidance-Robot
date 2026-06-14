@@ -1,7 +1,5 @@
 # Autonomous Obstacle Avoidance Mobile Robot (ROS 2 Humble)
 
-# Autonomous Obstacle Avoidance Mobile Robot (ROS2 Humble)
-
 ![Project Preview](media/project%201.jpeg)
 
 A professional ROS 2 Humble and C++ implementation of an Autonomous Mobile Robot (AMR) designed for reactive obstacle avoidance, hardware-software co-design, and real-time environment visualization via RViz2.
